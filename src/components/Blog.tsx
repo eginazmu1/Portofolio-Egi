@@ -10,7 +10,7 @@ const blogPosts = [
       "Mengintegrasikan Artificial Intelligence dengan Website Interaktif Menggunakan Computer Vision dan MQTT",
     category: "Certificate",
     date: "2024",
-    image: "./src/img/Sertifikat/Sertifikat 1.jpg",
+    image: "src/img/Sertifikat/Sertifikat 1.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const blogPosts = [
       "Partisipasi dalam Webinar Web Security yang diselenggarakan oleh Mahasiswa UTB Kel. 3/223MB.",
     category: "Certificate",
     date: "2024",
-    image: "./src/img/Sertifikat/Setifikat 2.jpg",
+    image: "src/img/Sertifikat/Setifikat 2.jpg",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const blogPosts = [
       "Kelulusan Kelas Belajar Membuat Role Management Menggunakan Laravel",
     category: "Certificate",
     date: "2025",
-    image: "./src/img/Sertifikat/Sertifikat 3.jpg",
+    image: "src/img/Sertifikat/Sertifikat 3.jpg",
   },
   {
     id: 4,
