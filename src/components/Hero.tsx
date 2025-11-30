@@ -46,7 +46,7 @@ export default function Hero() {
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-600 rounded-full blur-2xl opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
                 <div className="relative w-56 h-56 rounded-full bg-gradient-to-br from-blue-600 via-cyan-600 to-teal-600 p-1.5 shadow-2xl ring-4 ring-white dark:ring-gray-800 transform group-hover:scale-105 transition-transform duration-500 overflow-hidden">
                   <img
-                    src="images/Foto Diri Sendiri/Foto Hero.png"
+                    src="/images/Foto Hero.png"
                     alt="Profile"
                     className="w-full h-full object-cover rounded-full"
                   />
