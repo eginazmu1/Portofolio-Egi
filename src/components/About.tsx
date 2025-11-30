@@ -98,7 +98,7 @@ export default function About() {
                 <div className="bg-gray-900 rounded-3xl overflow-hidden h-full">
                   <div className="relative overflow-hidden h-full">
                     <img
-                      src="src/img/Foto Diri Sendiri/Foto About.jpg"
+                      src="/images/Foto Diri Sendiri/Foto About.jpg"
                       alt="Developer"
                       className="w-full h-full object-cover"
                     />
