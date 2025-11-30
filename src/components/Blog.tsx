@@ -4,32 +4,37 @@ import { Award, Sparkles } from 'lucide-react';
 const blogPosts = [
   {
     id: 1,
-    title: 'JavaScript Fundamentals',
-    description: 'Penghargaan kelulusan dalam mengikuti kelas Belajar Dasar JavaScript.',
-    category: 'Certificate',
-    date: '2023'
+    title:
+      "Integrasi AI dengan Website Interaktif menggunakan Computer Vision & MQTT",
+    description:
+      "Mengintegrasikan Artificial Intelligence dengan Website Interaktif Menggunakan Computer Vision dan MQTT",
+    category: "Certificate",
+    date: "2024",
   },
   {
     id: 2,
-    title: 'Laravel 9 Framework',
-    description: 'Penghargaan kelulusan dalam mengikuti kelas pengenalan framework Laravel 9.',
-    category: 'Certificate',
-    date: '2023'
+    title: "Web Security",
+    description:
+      "Partisipasi dalam Webinar Web Security yang diselenggarakan oleh Mahasiswa UTB Kel. 3/223MB.",
+    category: "Certificate",
+    date: "2024",
   },
   {
     id: 3,
-    title: 'Basic JavaScript',
-    description: 'Penghargaan kelulusan dalam mengikuti kelas Belajar Dasar JavaScript.',
-    category: 'Certificate',
-    date: '2023'
+    title: "Membuat Role Management Menggunakan Laravel",
+    description:
+      "Kelulusan Kelas Belajar Membuat Role Management Menggunakan Laravel",
+    category: "Certificate",
+    date: "2023",
   },
   {
     id: 4,
-    title: 'Front-End Development',
-    description: 'Penghargaan kelulusan dalam mengikuti kelas Belajar Dasar Front-End Web.',
-    category: 'Certificate',
-    date: '2023'
-  }
+    title: "Front-End Development",
+    description:
+      "Penghargaan kelulusan dalam mengikuti kelas Belajar Dasar Front-End Web.",
+    category: "Certificate",
+    date: "2023",
+  },
 ];
 
 export default function Blog() {
