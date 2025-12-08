@@ -46,9 +46,10 @@ Deno.serve(async (req: Request) => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "no-reply@bestdevs.live",
+        from: "noreply@bestdevs.live",
         to: ["eginazmumuqtapi98@gmail.com"],
-        subject: `Message from ${name} - Portfolio Contact`,
+        reply_to: email,
+        subject: `New Contact from ${name}`,
         html: `
           <h2>New Contact Form Submission</h2>
           <p><strong>Name:</strong> ${name}</p>
