@@ -66,7 +66,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
           <div className="bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-gray-700 dark:to-gray-600 p-8 rounded-3xl border border-blue-100 dark:border-gray-600 text-center group hover:shadow-lg transition-all">
             <div className="inline-block p-4 bg-blue-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
               <Mail className="w-8 h-8 text-white" />
