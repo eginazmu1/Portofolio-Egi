@@ -75,14 +75,6 @@ export default function Contact() {
             <p className="text-gray-600 dark:text-gray-300">eginazmumuqtapi98@gmail.com</p>
           </div>
 
-          <div className="bg-gradient-to-br from-teal-50 to-green-50 dark:from-gray-700 dark:to-gray-600 p-8 rounded-3xl border border-teal-100 dark:border-gray-600 text-center group hover:shadow-lg transition-all">
-            <div className="inline-block p-4 bg-teal-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
-              <Phone className="w-8 h-8 text-white" />
-            </div>
-            <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">Phone</h3>
-            <p className="text-gray-600 dark:text-gray-300">+62 838 1652 7379</p>
-          </div>
-
           <div className="bg-gradient-to-br from-purple-50 to-pink-50 dark:from-gray-700 dark:to-gray-600 p-8 rounded-3xl border border-purple-100 dark:border-gray-600 text-center group hover:shadow-lg transition-all">
             <div className="inline-block p-4 bg-purple-600 rounded-2xl mb-4 group-hover:scale-110 transition-transform">
               <MapPin className="w-8 h-8 text-white" />
