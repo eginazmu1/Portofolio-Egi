@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Blog from './components/Blog';
+import Downloads from './components/Downloads';
 import Contact from './components/Contact';
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
 
   React.useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'blog', 'contact'];
+      const sections = ['home', 'about', 'skills', 'blog', 'downloads', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -93,6 +94,15 @@ function App() {
                   <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600"></div>
                 )}
               </button>
+              <button
+                onClick={() => scrollToSection('downloads')}
+                className="relative text-gray-900 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium pb-1"
+              >
+                Downloads
+                {activeSection === 'downloads' && (
+                  <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600"></div>
+                )}
+              </button>
 
               <button
                 onClick={toggleDarkMode}
@@ -126,6 +136,10 @@ function App() {
 
         <section id="blog">
           <Blog />
+        </section>
+
+        <section id="downloads">
+          <Downloads />
         </section>
 
         <section id="contact">
